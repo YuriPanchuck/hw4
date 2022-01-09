@@ -72,6 +72,13 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/* .header-first-link::after {
+  cursor: pointer;
+}
+.header-mail::after {
+  cursor: pointer;
+} */
+
 /*---------- Header---------------- */
 .header {
   padding-top: 24px;
@@ -91,6 +98,23 @@ img {
 
   margin-right: 93px;
 }
+.header-list-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.header-icon {
+  fill: #757575;
+}
+.header-icon-first {
+  fill: #2196f3;
+}
+/* .header-item-content {
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+} */
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -372,34 +396,36 @@ img {
   color: var(--first-title-color);
 }
 /*------------CLIENTS----------------*/
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-title {
+  margin-bottom: 50px;
+}
 .clients-social-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: -30px;
-  margin-bottom: -30px;
 }
 .clients-social-item {
   width: calc(100% / 6 - 30px);
   margin-left: 30px;
-  margin-bottom: 30px;
 }
-.clients-social-item :not(last-child) {
+/* .clients-social-item :not(last-child) {
   margin-right: 30px;
-}
+} */
 .clients-social-item + .clients-social-item {
   margin-left: 30px;
 }
 .clients-social-link {
   width: 170px;
   height: 92px;
-  background-color: var(--btn-color);
   display: flex;
   justify-content: center;
   align-items: center;
   color: #afb1b8;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .clients-social-icon {
   fill: currentColor;
@@ -408,6 +434,8 @@ img {
 .clients-social-link:focus {
   background-color: var(--btn-color);
   color: var(--accent-color);
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 .clients-social-link-second {
   width: 170px;
@@ -417,7 +445,15 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--accent-color);
+  border: 1px solid #2196f3;
+  border-radius: 4px;
   /* border: 1px solid #afb1b8; */
+}
+.clients-social-link-second:hover,
+.clients-social-link-second:focus {
+  color: var(--accent-color);
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 /*---------------------FOOTER-------------------- */
 .footer {
