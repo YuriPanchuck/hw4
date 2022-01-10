@@ -178,7 +178,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
