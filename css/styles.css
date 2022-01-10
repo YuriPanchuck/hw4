@@ -257,14 +257,16 @@ img {
 .hero-item-list {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 30px;
 }
 .hero-item {
   width: calc(100% / 4 - 30px);
-  height: 251px;
-}
-.hero-item:not(:last-child) {
   margin-right: 30px;
+  /* height: 251px; */
 }
+/* .hero-item:not(:last-child) {
+  margin-right: 30px;
+} */
 
 /*---------------------WORK-------------------- */
 .work {
@@ -362,7 +364,6 @@ img {
 .team-social-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
 }
 .team-social-item + .team-social-item {
   margin-left: 10px;
@@ -556,7 +557,7 @@ img {
   background-color: var(--accent-color);
   color: var(--first-title-color);
 }
-.footer-social-link-second {
+/* .footer-social-link-second {
   width: 44px;
   height: 44px;
   background-color: var(--accent-color);
@@ -565,7 +566,7 @@ img {
   align-items: center;
   border-radius: 50%;
   color: var(--first-title-color);
-}
+} */
 
 /*---------------------PORTFOLIO-------------------- */
 .all-btn {
