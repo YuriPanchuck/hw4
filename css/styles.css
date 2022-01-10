@@ -178,10 +178,11 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1600px;
+  width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
+  max-width: 100%;
 }
 .hero-title {
   box-sizing: content-box;
