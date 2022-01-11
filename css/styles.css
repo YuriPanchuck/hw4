@@ -107,9 +107,9 @@ img {
 .header-icon {
   fill: #757575;
 }
-.header-icon-first {
-  fill: #2196f3;
-}
+/* .header-icon-first {
+  fill: #57575;
+} */
 /* .header-item-content {
   justify-content: center;
   align-items: center;
@@ -139,11 +139,38 @@ img {
 
   color: var(--accent-color);
 }
+.header-mail:hover,
+.header-icon:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-icon:focus,
+.header-tel:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
 
-.header-link:hover,
-.header-link:focus {
+/* .header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+} */
+
+/* .header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
+.header-icon:hover,
+.header-icon:focus {
+  fill: var(--accent-color);
+} */
+.header-icon {
+  margin-right: 10px;
+}
+/* .header-list-content:hover,
+.header-list-content:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+} */
 
 .header-mail {
   font-weight: 500;
@@ -151,7 +178,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--accent-color);
+  color: var(--second-title-color);
 }
 
 .header-tel {
@@ -386,7 +413,7 @@ img {
   background-color: var(--accent-color);
   color: var(--first-title-color);
 }
-.team-social-link-second {
+/* .team-social-link-second {
   width: 44px;
   height: 44px;
   background-color: var(--accent-color);
@@ -395,7 +422,7 @@ img {
   align-items: center;
   border-radius: 50%;
   color: var(--first-title-color);
-}
+} */
 /*------------CLIENTS----------------*/
 .clients {
   padding-top: 94px;
@@ -438,7 +465,7 @@ img {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-.clients-social-link-second {
+/* .clients-social-link-second {
   width: 170px;
   height: 92px;
   background-color: var(--btn-color);
@@ -449,7 +476,7 @@ img {
   border: 1px solid #2196f3;
   border-radius: 4px;
   /* border: 1px solid #afb1b8; */
-}
+} */
 .clients-social-link-second:hover,
 .clients-social-link-second:focus {
   color: var(--accent-color);
@@ -657,7 +684,11 @@ img {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
-.project-shadow:hover,
+/* .project-shadow:hover,
 .project-shadow:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+} */
+ .project-shadow:hover,
+.project-shadow:focus {
+box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
